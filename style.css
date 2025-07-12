@@ -438,3 +438,142 @@ button {
     font-size: 12px;
     font-weight: 500;
 }
+
+
+/* Recommendations */
+
+.recommendations {
+    padding: 140px 0;
+}
+
+.recommendations .title-seciton {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 60px;
+}
+
+.recommendations .title-seciton .square {
+    width: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--red);
+}
+
+.recommendations .title-seciton h3 {
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.rec-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-image-container {
+    position: relative;
+    min-width: 270px;
+    height: 250px;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-image-container .sale-container {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: var(--red);
+    padding: 4px 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.item-image-container .sale-container span {
+    font-size: 12px;
+    color: var(--white);
+    
+}
+
+.item-image-container .btns-container {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.btns-container .like-container {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 100%;
+    cursor: pointer;
+} 
+
+.btns-container .like-container svg {
+    width: 24px;
+    height: 24px;
+}
+
+.btns-container .view-container {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 100%;
+    cursor: pointer;
+} 
+
+.btns-container .view-container svg {
+    width: 24px;
+    height: 24px;
+}
+
+.rec-item .rec-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.rec-item .rec-price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.rec-item .rec-price .rec-price-new {
+    color: var(--red);
+}
+
+.rec-item .rec-price .rec-price-old {
+    color: #7B7B7B;
+    text-decoration: line-through;
+}
+
+.rec-item .rating-content {
+    display: flex;
+    align-items: center;
+}
+
+.rec-item .rating-content .reviews {
+    font-size: 14px;
+    font-weight: 600;
+}
